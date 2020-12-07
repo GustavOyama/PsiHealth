@@ -1,0 +1,24 @@
+language: ruby
+
+services:
+  - postgresql
+
+rvm: 
+  - 2.7.1 
+
+script:
+  - bundle update --bundler
+  - bundle exec rake db:migrate
+  - bundle exec rspec spec
+  - bundle exec cucumber
+
+before_script:
+  - cp config/database.travis.yml config/database.yml 
+  - psql -c "create database development;" -U postgres
+  - psql -c "create database test;" -U postgres
+  - psql -c "create database production;" -U postgres
+
+
+branches:
+  only:
+    - master
