@@ -12,6 +12,13 @@ Infelizmente transtornos mentais como ansiedade e depressão são cada vez mais 
 Porém é, também, uma busca bastante complicada e cheia de estigmas. Para isso criamos esse aplicativo: facilitar e incentivar a busca por especialistas para combatermos esses problemas.
 Acesse nosso mapa para encontrar clínicas mais próximas, filtre por preço, conheça mais os profissionais para decidir qual a melhor opção para você.
 
+
+## PROBLEMAS
+Este projeto foi inicialmente desenvolvido no repositório [eng_si](https://github.com/Siqs/eng_si) em que a participação de todos os integrantes podem ser analisada.
+Este novo repositório foi criado apenas para resolver um problema que enfrentamos no deploy do Heroku.
+
+[Link do projeto inicial](https://github.com/Siqs/eng_si)
+
 ## Integrantes
 
 - Gustavo Mitsunari Oyama - 9845023
